@@ -1,0 +1,29 @@
+.content-bg {
+    margin-top: 8px;
+    border-radius: 10px;
+    background: #f3f3f3;
+    margin-left: px2em(10);
+    margin-right: px2em(10);
+    overflow: hidden;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    font-size: px2em(14);
+    padding-top: px2em(10);
+    padding-bottom: px2em(10);
+    border-bottom: 1px solid #f3f3f3;
+
+    &-title {
+        color: black;
+        margin-left: px2em(20);
+    }
+
+    &-content {
+        color: #4c4c4c;
+        margin-right: px2em(20);
+    }
+}
